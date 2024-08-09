@@ -15,6 +15,7 @@ public class JenkinsDemoApplication {
 	@PostConstruct
 	public void in() {
 		logger.info("Application Started....!");
+		logger.info("Application Started second ..........!");
 	}
 
 	public static void main(String[] args) {
