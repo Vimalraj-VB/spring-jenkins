@@ -13,9 +13,9 @@ public class JenkinsDemoApplication {
 	public static Logger logger = LoggerFactory.getLogger(JenkinsDemoApplication.class);
 
 	@PostConstruct
-	public void in() {
+	public  in() {
 		logger.info("Application Started....!");
-		logger.info("Application Started second ..........!");
+		logger.info("Application Started second log checking ..........!");
 	}
 
 	public static void main(String[] args) {
